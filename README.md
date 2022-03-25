@@ -5,6 +5,8 @@ In this project, a Stochastic Gradient Descent Classifier is trained for sentime
 ## Data preprocessing
 Use data_preprocessing.py file to extract and store the data for training the SGD classifier. This python file should output “imdb_tr.csv” file. The csv file should have three columns, "row_number" and “text” and “polarity”. The column “text” contains review texts from the aclImdb database and the column “polarity” consists of sentiment labels, 1 for positive and 0 for negative.
 
+The csv. files for both training and testing are provided. Since the filesize of the datasets are large, they have been split and uploaded. Please merge the respective data before training.
+
 In addition, common English stopwords should be removed. Many English stopwords are provided in stop_words.txt. In addition, some stop words are also mentioned within the python file SGD_classifier.py.
 
 ## Unigram and bigram models
